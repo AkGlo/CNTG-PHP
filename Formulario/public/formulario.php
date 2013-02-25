@@ -1,12 +1,13 @@
 <html>
 <head>
 <title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
 <form action="procesa.php" method="POST" ENCTYPE="multipart/form-data">
 
 <ul>
-<li>Id: <input type="hidden" name="id"/></li>
+<li>Id: <input type="hidden" name="id" value="1"/></li>
 <li>Nombre: <input name="name" type="text"/></li>
 <li>Email: <input name="email" type="text"/></li>
 <li>Password: <input name="password" type="password"/></li>
@@ -32,5 +33,3 @@
 </form>
 </body>
 </html>
-<?php
-?>

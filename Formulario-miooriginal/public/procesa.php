@@ -1,7 +1,7 @@
 <?php
 
-include_once 'function.php'
-;
+include_once 'function.php';
+
 echo "<pre>Post: ";
 print_r($_POST);
 echo "</pre>";
@@ -10,7 +10,7 @@ echo "<pre>Post: ";
 print_r($_FILES);
 echo "</pre>";
 
-$uploads_dir = "/CNTG-PHP/Formulario/public/uploads";
+$uploads_dir = "uploads";
 $tmp_name = $_FILES["photo"]["tmp_name"];
 $name = $_FILES["photo"]["name"];
 $ruta=$_SERVER['DOCUMENT_ROOT'].$uploads_dir;

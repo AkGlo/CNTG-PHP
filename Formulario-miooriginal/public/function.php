@@ -21,10 +21,10 @@ function  muestraArray($array){
  */
 function uploadFile($arrayFiles)
 {
-	$uploads_dir = "/CNTG-PHP/Formulario/public/uploads";
+	$uploads_dir = "uploads";
 	$tmp_name = $arrayFiles["photo"]["tmp_name"];
 	$name = $arrayFiles["photo"]["name"];
-	$ruta=$_SERVER['DOCUMENT_ROOT'].$uploads_dir;
+	$ruta=$_SERVER['DOCUMENT_ROOT']."/".$uploads_dir;
 	$url=$uploads_dir;
 	if(file_exists($ruta."/".$name))
 	{

@@ -74,7 +74,7 @@ foreach($arrayFile as $key => $line)
 				echo $value;
 			echo "</td>";
 		}
-	echo "<td><a href=\"formulario.php?id=" .$key. "&name=".$arrayLine[$key+1]. "\">update</a>&nbsp;<a href=\"#\">options</a></td>";
+	echo "<td><a href=\"formulario.php?id=".$key."\">update</a>&nbsp;<a href=\"confirm_delete.php?=".$key."\">delete</a></td>";
 	
 	echo "</tr>";
 }

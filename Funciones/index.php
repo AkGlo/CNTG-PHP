@@ -2,7 +2,7 @@
 
 $alumno = array (
 		'nombre' => 'Adrian',
-		'apellidos' => 'Amor Zapata',
+		'apellidos' => 'Primero Segundo',
 		'email' => 'akgloaz@gmail.com',
 		'edad' => 24,
 		'algo',
